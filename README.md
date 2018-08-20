@@ -47,7 +47,7 @@ window.startGUI()
 
 ##### Most widgets support:
 * `.string` for text manipulation
-* `.command' for call back function
+* `.command` for call back function
 * `.enabled` can be True or False for enabling/disabling control
 * `.tooltip` for hover over tool tips
 
