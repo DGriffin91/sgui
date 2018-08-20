@@ -19,7 +19,7 @@ def playMidiNotes(btn):
 
 buttonBox = sgui.HBox(mainBox)
 
-noteSequenceEntry = sgui.TextEntry(buttonBox, string = "60 64") 
+noteSequenceEntry = sgui.Textentry(buttonBox, string = "60 64") 
 
 playButton = sgui.Button(buttonBox, string = "Play", command = playMidiNotes) 
 

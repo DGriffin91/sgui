@@ -11,9 +11,9 @@ window = sgui.Tk()
 mainBox = sgui.VBox(window)
 
 sgui.Label(mainBox, string = "Normal Text:") 
-normalTextBox = sgui.TextBox(mainBox, string = "Some normal text", command = encode)
+normalTextBox = sgui.Textbox(mainBox, string = "Some normal text", command = encode)
 
 sgui.Label(mainBox, string = "Rotated Text:") 
-rotatedTextBox = sgui.TextBox(mainBox)
+rotatedTextBox = sgui.Textbox(mainBox)
 
 window.startGUI()

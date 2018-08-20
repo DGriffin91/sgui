@@ -71,9 +71,9 @@ listbox2.command = printList
 
 # --- Textboxes ---
 
-textBox1 = sgui.TextBox(mainBox, command = printText)
+textBox1 = sgui.Textbox(mainBox, command = printText)
 
-textBox2 = sgui.TextBox(mainBox)
+textBox2 = sgui.Textbox(mainBox)
 textBox2.command = printText
 
 # --- Radiobuttons ---
@@ -92,10 +92,10 @@ radiobuttons.command = printList
 
 textEntryBox = sgui.VBox(mainBox)
 
-textEntry = sgui.TextEntry(textEntryBox)
+textEntry = sgui.Textentry(textEntryBox)
 textEntry.command = printText
 
-textEntry = sgui.TextEntry(textEntryBox, string = "TEST!!", command = printText)
+textEntry = sgui.Textentry(textEntryBox, string = "TEST!!", command = printText)
 
 #Start GUI
 window.startGUI()

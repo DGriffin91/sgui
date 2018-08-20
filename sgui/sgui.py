@@ -90,10 +90,10 @@ class CreateToolTip(object):
         if tw:
             tw.destroy()
 
-class TextBox(tkinter.Text, SWidget):
+class Textbox(tkinter.Text, SWidget):
     """Wrapper for tkinter Text"""
     def __init__(self, parent, string = "", command = None, anchor = "", *args, **kwargs):
-        super(TextBox, self).__init__(parent, *args, **kwargs)
+        super(Textbox, self).__init__(parent, *args, **kwargs)
         self.bind('<<Modified>>', self.callbackFunc)
         ori = parent.__class__.__name__
         if ori == "HBox":
@@ -123,10 +123,10 @@ class TextBox(tkinter.Text, SWidget):
                 self.command(self)
         self.edit_modified(False)
 
-class TextEntry(ttk.Entry, SWidget):
+class Textentry(ttk.Entry, SWidget):
     """Wrapper for ttk Text"""
     def __init__(self, parent, string = "", command = None, anchor = "", *args, **kwargs):
-        super(TextEntry, self).__init__(parent, *args, **kwargs)
+        super(Textentry, self).__init__(parent, *args, **kwargs)
 
         self.textVar = tkinter.StringVar()
         self.textVar.trace("w", lambda name, index, mode, sv=self.textVar: self.callbackFunc())

@@ -1,5 +1,5 @@
-from sgui.sgui import TextBox
-from sgui.sgui import TextEntry
+from sgui.sgui import Textbox
+from sgui.sgui import Textentry
 from sgui.sgui import Button
 from sgui.sgui import VBox
 from sgui.sgui import HBox
