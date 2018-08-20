@@ -6,3 +6,5 @@ Currently, sgui is just simple a wrapper around [Tkinter](https://wiki.python.or
 sgui aims to be a simple and consistent tool for creating basic graphical user interfaces in python.
 
 sgui is currently under development. Basic usage of the library should not change much. But as it is still in early development, newer versions may break scripts written for older versions.
+
+[sgui on github](https://github.com/DGriffin91/sgui)
