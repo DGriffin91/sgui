@@ -18,7 +18,7 @@ import sgui, codecs
 def encode(textBox):
 	rotatedTextBox.string = codecs.encode(textBox.string, 'rot_13')
 
-#Start Tk window
+#Start window
 window = sgui.Tk() 
 
 #Vertical Layout frame
