@@ -34,8 +34,8 @@ window.startGUI()
 ```
 
 ### Currently Supported Widgets
-* TextBox
-* TextEntry
+* Textbox
+* Textentry
 * Button
 * Label
 * Checkbox
