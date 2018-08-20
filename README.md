@@ -46,10 +46,10 @@ window.startGUI()
 * HBox
 
 ##### Most widgets support:
-* `.string` for text manipulation
-* `.command` for call back function
-* `.enabled` can be True or False for enabling/disabling control
-* `.tooltip` for hover over tool tips
+* `.string` for text manipulation (String)
+* `.command` for call back function (Function)
+* `.enabled` can be True or False for enabling/disabling control (Boolean)
+* `.tooltip` for hover over tool tips (String)
 
 ##### For example:
 ```python
