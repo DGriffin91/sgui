@@ -14,7 +14,7 @@ sgui is currently under development. Basic usage of the library should not chang
 ```python
 import sgui, codecs
 
-#Call back function for when the  normal text changes
+#Call back function for when the normal text changes
 def encode(textBox):
 	rotatedTextBox.string = codecs.encode(textBox.string, 'rot_13')
 
