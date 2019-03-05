@@ -9,6 +9,9 @@ sgui is currently under development. Basic usage of the library should not chang
 
 [sgui on github](https://github.com/DGriffin91/sgui)
 
+To install sgui simply use pip:  
+`$ pip install sgui`
+
 ### rot13 Code Example
 
 ```python
